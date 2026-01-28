@@ -12,11 +12,11 @@ export const SearBarSection = function(){
          className="w-full py-2 rounded-xl px-3 border-2
          border-neutral-300 text-white " />
          {search && (
-            <div className="absolute top-full mt-2 bg-white rounded-xl shadow-lg overflow-y-scroll overflow-hidden">
+            <div className="absolute top-full mt-2 bg-white text-black rounded-xl shadow-lg overflow-y-scroll overflow-hidden">
                 {result.length > 0 ? (
                  result.map(course => (
                     <Link key={course.id} href={`/courses/${course.id}`}
-                    className="block px-4 py-2 hover:bg-r-gray-100 "
+                    className="block px-4 py-2 hover:bg-r-gray-200 "
                     onChange={()=> setSearch("")}
                     >
                         {course.title}
