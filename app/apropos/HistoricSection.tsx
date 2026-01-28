@@ -22,10 +22,10 @@ const imageVariants: Variants = {
 }
 export const HistoricSection = function(){
     return(
-        <section className="flex flex-col justify-center bg-neutral-200  items-center ">
+        <section className="flex flex-col justify-center bg-neutral-300  items-center ">
             <article className="flex flex-col lg:flex-row justify-center w-full items-center gap-5 mt-5 md:mt-15 lg:mt-20 p-3">
             {/**----------------text section div-------------------------- */}
-            <div className="w-full flex justify-center  flex-col gap-4 lg:w-[50%] lg:ml-5 p-3">
+            <div className="w-full flex justify-center  flex-col gap-4 lg:w-[50%] lg:ml-5 p-3 text-black">
                 <motion.h2 
                 variants={paragraph}
                 initial="hidden"

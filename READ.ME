@@ -1,0 +1,53 @@
+#eldnbvqdb
+https://webservice-production-9380.up.railway.app
+
+https://newbackend-production-ce98.up.railway.app
+
+
+https://new-frontend8-e089zl71l-elhadjis-projects-ddc6943a.vercel.app
+
+
+await sendEmail({
+        to: process.env.ADMIN_EMAIL,
+        subject: "Nouvelle commande de formation",
+        html: `
+        <h2>Nouvelle commande reçus</h2>
+        <p><strong>Nom :</strong> ${name}</p>
+        <p><strong>Email :</strong> ${email}</p>
+        <p><strong>Téléphone :</strong> ${phone}</p>
+        <p><strong>Type :</strong> ${type}</p>
+        <p><strong>Formation :</strong> ${formationName}</p>
+        <p><strong>Besoin :</strong> ${besoin || "Non précisé"}</p>
+        `,
+    });
+
+    //email du client (message de confirmation du commande)
+    await sendEmail({
+        to: email,
+        subject: "Confirmation de votre commande",
+        html: `
+        <p>Bonjour ${name},</p>
+        <p>Nous avons bien reçu votre commande de formation.</p>
+        <p><strong>Formation Commander:</strong> ${formationName}</p>
+        <p>Notre équipe vous contactera très prochainement.</p>
+        <p>Pour plus d'infos contactez-nous sur:+221770862226,<br/>
+        <p>Merci pour votre confiance!!!<br/>
+        `,
+    });
+    await sendEmail({
+            to: process.env.ADMIN_EMAIL,
+            subject: "Nouvelle commande de formation",
+            html: `
+            <h2>Nouvelle commande reçue</h2>
+            <p><strong>Nom :</strong> ${name}</p>
+            <p><strong>Email :</strong> ${email}</p>
+            <p><strong>Téléphone :</strong> ${phone}</p>
+            <p><strong>Type :</strong> ${type}</p>
+            <p><strong>Formation ID :</strong> ${formationId}</p>
+            ${company ? `<p><strong>Entreprise :</strong> ${company}</p>` : ''}
+            ${employees ? `<p><strong>Employés :</strong> ${employees}</p>` : ''}
+            ${besoin ? `<p><strong>Besoin :</strong> ${besoin}</p>` : ''}
+            ${niveau ? `<p><strong>Niveau :</strong> ${niveau}</p>` : ''}
+            ${motivation ? `<p><strong>Motivation :</strong> ${motivation}</p>` : ''}
+            `,
+        });

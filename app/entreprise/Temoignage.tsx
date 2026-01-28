@@ -78,7 +78,7 @@ export const TemoignageSection = function(){
     }
     const card = TransItems[index]
     return(
-        <section className="flex justify-center items-center mt-30 p-5 bg-neutral-100">
+        <section className="flex justify-center items-center mt-30 p-5 bg-neutral-300">
           <div className="relative overflow-hidden">   
            <AnimatePresence mode="wait">
               <motion.div 
@@ -91,14 +91,14 @@ export const TemoignageSection = function(){
                 className="w-full h-[60vh] lg:h-[70vh] object-cover lg:w-150 md:w-100 rounded-xl "
                 />
                    <main className="flex flex-col justify-evenly p-3 w-full md:w-100 lg:w-150 h-full ">
-                     <p className="p-1 text-sm md:text-lg lg:text-lg">(Témoignage Certifié)</p>
-                     <h2 className="text-xl md:text-4xl lg:text-5xl font-bold flex flex-col p-2">Des Professionnels Formés,
+                     <p className="p-1 text-black text-sm md:text-lg lg:text-lg">(Témoignage Certifié)</p>
+                     <h2 className="text-xl md:text-4xl lg:text-5xl font-bold flex flex-col text-black p-2">Des Professionnels Formés,
                      <span> Des Projets <span className="text-blue-500">Réussis</span> </span>
                        </h2>
                        <div>
-                        <p className="text-sm md:text-lg lg:text-xl p-1">{card.desc}</p>
-                        <h4 className="text-sm md:text-lg lg:text-lg font-bold p-1">{card.nom}</h4>
-                        <p className="p-1">{card.domain}</p>
+                        <p className="text-sm md:text-lg lg:text-xl p-1 text-black">{card.desc}</p>
+                        <h4 className="text-sm md:text-lg lg:text-lg font-bold p-1 text-black">{card.nom}</h4>
+                        <p className="p-1  text-black">{card.domain}</p>
                        </div>
                        <main className="flex gap-10">
                         <button onClick={prev} 

@@ -55,7 +55,7 @@ const headerCards: headerCard[] = [
 ]
 export const HeaderSection = function(){
        return(
-        <section className=" relative right-5 bottom-10 w-100 md:w-195 lg:w-600  lg:h-200 h-full lg:right-4">
+        <section className=" relative right-5 bottom-10 w-100 md:w-195 lg:w-600  lg:h-180 h-full lg:right-4">
             <Swiper
                 modules={[Autoplay]}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -66,7 +66,7 @@ export const HeaderSection = function(){
             >
                {headerCards.map((card, index) => (
                 <SwiperSlide key={index} className="h-100 w-full">
-                    <div className="flex flex-col  justify-center items-center w-full  h-150 md:h-[60vh] rounded-lg m-5 lg:h-[80vh] relative ">
+                    <div className="flex flex-col  justify-center items-center w-full  h-150 md:h-[60vh] rounded-lg m-5 lg:h-180 relative ">
                         <Image src={card.image} alt={card.title} className="w-full  h-full object-cover rounded-xl "/>
                         <div className="w-full h-full bg-black/40 absolute">
                         <div className="absolute top-0 left-0  lg:left-10 flex flex-col gap-5  w-full lg:w-full rounded-xl h-full ">

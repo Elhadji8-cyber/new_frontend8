@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 
 export const CardDomain = function(){
     return(
-        <section className="flex flex-col justify-center  items-center mt-20 bg-neutral-200 p-5 lg:p-10">
+        <section className="flex flex-col justify-center  items-center mt-20 bg-neutral-300 p-5 lg:p-10">
            <motion.div 
            className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5 lg:gap-10">
             {CardItems.map((card, index) => (
@@ -28,8 +28,8 @@ export const CardDomain = function(){
                  <p className="text-sm font-bold text-black p-1 bg-white mt-1 rounded-full">{card.niveau}</p>
                  <IoCheckmarkDoneOutline className="text-white text-2xl"/>
                   </main>
-                 <h3 className="text-xl lg:text-2xl text-white font-bold">{card.title}</h3>
-                 <p className="text-white">{card.description}</p>
+                 <h3 className="text-xl lg:text-2xl text-black font-bold">{card.title}</h3>
+                 <p className="text-black">{card.description}</p>
                  </div>
                  {card.detaille.map((detaill, idx) => {
                     const Icons = detaill.iconsTime;
@@ -50,12 +50,12 @@ export const CardDomain = function(){
                        </div>
                        <h4 className="text-sm lg:text-xl text-black font-bold">{detaill.competence}</h4>
                        <div className="flex items-center p-1 gap-1 flex-wrap w-full lg:w-87.5">
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.revite}</p>
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.AutoCAD} </p>
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.Normes} </p>
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.Plans} </p>
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.techniques} </p>
-                        <p className="p-1 bg-neutral-200 text-sm rounded-full text-black">{detaill.Layouts} </p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.revite}</p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.AutoCAD} </p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.Normes} </p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.Plans} </p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.techniques} </p>
+                        <p className="p-1 bg-neutral-300 text-sm rounded-full text-black">{detaill.Layouts} </p>
                        </div>
                      </div>
                     </div>

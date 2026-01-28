@@ -12,15 +12,15 @@ export const LogicielData = function(){
           <div className="flex w-full lg:w-200 flex-col lg:flex-row md:flex-row px-5 lg:px-6  justify-between items-center py-2 lg:py-5 rounded-xl lg:rounded-full mt-6 lg:mt-8 bg-white">
             <button onClick={()=>setIsactive("mision")}
                className={`px-4 lg:px-8 md:px-6 py-2.5 lg:py-3 rounded-[15px]
-                 lg:rounded-[20px] md:rounded-[17px] text-sm lg:text-xl md:text-lg ${isactive === "mision" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`} 
+                 lg:rounded-[20px] md:rounded-[17px] text-sm text-black lg:text-xl md:text-lg ${isactive === "mision" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`} 
                 >BIM & Modélisation</button>
             <button onClick={()=>setIsactive("Cao")}
                 className={`px-4 lg:px-8 md:px-6 py-2.5 lg:py-3 rounded-[15px]
-                 lg:rounded-[20px] md:rounded-[17px] text-sm lg:text-xl md:text-lg ${isactive === "Cao" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`}
+                 lg:rounded-[20px] md:rounded-[17px] text-sm text-black lg:text-xl md:text-lg ${isactive === "Cao" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`}
             > CAO & Dessin</button>
             <button onClick={()=>setIsactive("gestion") }
             className={`px-4 lg:px-8 md:px-6 py-2.5 lg:py-3 rounded-[15px]
-                 lg:rounded-[20px] md:rounded-[17px] text-sm lg:text-xl md:text-lg ${isactive === "gestion" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`}
+                 lg:rounded-[20px] md:rounded-[17px] text-sm text-black lg:text-xl md:text-lg ${isactive === "gestion" ? "bg-orange-500 text-white" : "hover:bg-orange-200"}`}
             >Gestion de Projet</button>
           </div>
       {/*-----------------transition zone pour les 3 component ------------ */}
@@ -55,11 +55,11 @@ export const BimModelisation = function(){
             ">   
             {(() => {
              const Icons = data.icons;
-             return <Icons className="text-4xl lg:text-5xl p-1 bg-orange-200 rounded-full hover:bg-orange-500 transion-all duration-300"/>   
+             return <Icons className="text-4xl lg:text-5xl p-1 text-white bg-orange-200 rounded-full hover:bg-orange-500 transion-all duration-300"/>   
             })()}
-            <h3 className="text-xl lg:text-3xl font-bold p-1 hover:text-orange-500 transition-text duration-300">
+            <h3 className="text-xl lg:text-3xl font-bold p-1 text-black hover:text-orange-500 transition-text duration-300">
             {data.title}</h3>
-            <p className="text-sm lg:text-xl md:text-lg p-1">{data.description}</p>
+            <p className="text-sm lg:text-xl md:text-lg p-1 text-black">{data.description}</p>
              {(()=> {
                 const DoneI = data.doneicon;
                 const ArrowI = data.arrowicon;
@@ -118,9 +118,9 @@ export const CaoDesin = function(){
                                 const Icons = data.icons;
                                  return <Icons className="text-4xl lg:text-5xl p-1 bg-orange-200 rounded-full hover:bg-orange-500 transion-all duration-300"/>
                             })()} 
-                            <h2 className="text-xl lg:text-3xl font-bold p-1 hover:text-orange-500 transition-text duration-300">
+                            <h2 className="text-xl lg:text-3xl font-bold p-1 text-black hover:text-orange-500 transition-text duration-300">
                                 {data.title} </h2>
-                            <p className="text-sm lg:text-xl md:text-lg p-1">
+                            <p className="text-sm lg:text-xl md:text-lg p-1 text-black">
                             {data.description} </p>
                             {(()=> {
                                 const DoneI = data.doneicon;
@@ -176,9 +176,9 @@ export const GestionProject = function(){
                 const Icons = i.icons;
                  return <Icons className="text-4xl lg:text-5xl p-1 bg-orange-200 rounded-full hover:bg-orange-500 transion-all duration-300"/>
               })()}
-              <h2 className="text-xl lg:text-3xl font-bold p-1 hover:text-orange-500 transition-text duration-300">
+              <h2 className="text-xl lg:text-3xl font-bold p-1 hover:text-orange-500 transition-text duration-300 text-black">
               {i.title} </h2>
-              <p className="text-sm lg:text-xl md:text-lg p-1">
+              <p className="text-sm lg:text-xl md:text-lg p-1 text-black">
               {i.description} </p>
               {(() => {
                 const DoneI = i.doneicon;

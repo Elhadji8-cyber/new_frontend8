@@ -4,11 +4,11 @@ import { MdOutlineSettings } from "react-icons/md";
 import { GrCertificate } from "react-icons/gr";
 export const MarchSection = function(){
     return(
-        <section className="flex flex-col justify-center items-center p-10">
-            <h2 className="text-2xl lg:text-5xl md:text-4xl font-bold mt-5 p-1">Comment ça Marche?</h2>
+        <section className="flex flex-col justify-center items-center p-10 bg-white">
+            <h2 className="text-2xl lg:text-5xl md:text-4xl font-bold mt-5 p-1 text-black">Comment ça Marche?</h2>
             <div className="flex flex-col lg:flex-row mt-20 gap-5 justify-center items-center">
             <main className="flex flex-col justify-center
-             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-100
+             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <CiSearch className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
                 <h4 className="text-sm lg:text-xl font-bold">Choisissez Votre Parcours</h4>
@@ -18,7 +18,7 @@ export const MarchSection = function(){
                 </p>
             </main>
             <main className="flex flex-col justify-center
-             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-100
+             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <IoVideocamOutline className="text-5xl p-1 bg-red-300 rounded-full text-white" />
                 <h4  className="text-sm lg:text-xl font-bold">Suivez les Formations</h4>
@@ -27,7 +27,7 @@ export const MarchSection = function(){
                 </p>
             </main>
             <main className="flex flex-col justify-center
-             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-100
+             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <MdOutlineSettings className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
                 <h4  className="text-sm lg:text-xl font-bold">Réalisez des Projets</h4>
@@ -36,7 +36,7 @@ export const MarchSection = function(){
                 </p>
             </main>
             <main className="flex flex-col justify-center
-             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-100
+             items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <GrCertificate className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
                 <h4  className="text-sm lg:text-xl font-bold">Obtenez Votre Certificat</h4>
