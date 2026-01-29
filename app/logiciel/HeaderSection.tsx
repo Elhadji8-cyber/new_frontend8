@@ -20,7 +20,7 @@ export const HeaderSection = function(){
                 whileInView="visible"
                 viewport={{once: false, amount: 0.5}}
                 transition={{duration:0.8, ease:"easeOut"}}
-                className="text-xl lg:text-6xl font-bold md:text-5xl p-1 text-white"
+                className="text-2xl lg:text-6xl font-bold md:text-5xl p-1 text-white"
                 >Maîtrisez les Logiciels Leaders</motion.h1>
                 <motion.p 
                 variants={fadeUpD}

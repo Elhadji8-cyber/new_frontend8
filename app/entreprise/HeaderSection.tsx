@@ -7,7 +7,7 @@ export const HeaderSection = function(){
                 <motion.h1 
                 initial={{opacity:0, y:25}}
                 whileInView={{opacity:1, transition:{duration:1}, y:0}}
-                className="text-xl md:text-4xl lg:text-6xl font-bold text-white p-1"> Formation pour Entreprises</motion.h1>
+                className="text-2xl md:text-4xl lg:text-6xl font-bold text-white p-1"> Formation pour Entreprises</motion.h1>
                 <motion.p 
                  initial={{opacity:0, y:30}}
                  whileInView={{opacity:1, transition:{duration:1}, y:0}}

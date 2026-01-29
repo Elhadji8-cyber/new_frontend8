@@ -47,9 +47,9 @@ export const InscriptionSection = function({coursId}: {coursId?:number}){
         }
     }
     return(
-<section className="flex flex-col justify-center items-center p-5 gap-4 mt-10 bg-blue-500">
+<section className="flex flex-col justify-center items-center p-5 gap-4 mt-10 bg-blue-500 text-black">
         <div>
-            <h2 className="text-xl font-bold md:text-4xl lg:text-5xl p-2 text-white mt-5">Parlons de Votre Projet</h2>
+            <h2 className="text-2xl font-bold md:text-4xl lg:text-5xl p-2 text-white mt-5">Parlons de Votre Projet</h2>
             <p className="text-white">Nos experts vous accompagnent pour créer le programme de formation idéal</p>
         </div>
         <div className="flex flex-col items-center gap-2 bg-white h-full rounded-xl w-full lg:w-[70%] p-5">

@@ -7,7 +7,7 @@ export const CourseCard = function({course}: props){
         <Link 
         href={`../courses/${course.id}`} 
         >
-         <div className="relative w-full  bg-neutral-200 rounded-xl p-1  h-[70vh] md:h-[48vh] lg:h-[63vh] gap-5">   
+         <div className="relative w-full  bg-neutral-200 rounded-xl p-1  h-[62vh] md:h-[48vh] lg:h-[63vh] gap-5">   
          <Image src={course.image} alt="image"
          width={500} height={200}
          style={{width:"800px", height:"200px", objectFit:"cover"}}

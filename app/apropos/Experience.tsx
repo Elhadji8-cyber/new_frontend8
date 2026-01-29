@@ -21,7 +21,7 @@ export const ExperienceSection = function(){
                      flex flex-col justify-center items-center p-2
                     inset-0 h-[25vh] lg:top-[63%] top-[50%] w-full">
                         <div className="flex flex-col justify-center items-center">
-                            <h4 className="text-3xl md:text-4xl lg:text-3xl font-bold text-white">Adam&apos;s Symapvy</h4>
+                            <h4 className="text-3xl md:text-4xl lg:text-3xl font-bold text-white">Adam&apos;s Academy</h4>
                             <p className="text-white">Fondateur & CEO: AV-BTP</p>
                         </div>
                         <div className="flex gap-3">

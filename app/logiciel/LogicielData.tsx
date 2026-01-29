@@ -8,7 +8,7 @@ import Link from "next/link";
 export const LogicielData = function(){
     const [isactive, setIsactive] = useState("mision");
     return(
-        <section className="flex  flex-col justify-center items-center bg-neutral-300 px-4 lg:px-8 mt-20">
+        <section className="flex  flex-col justify-center items-center bg-neutral-300 px-4 lg:px-8 mt-5 md:mt-8 lg:mt-20">
           <div className="flex w-full lg:w-200 flex-col lg:flex-row md:flex-row px-5 lg:px-6  justify-between items-center py-2 lg:py-5 rounded-xl lg:rounded-full mt-6 lg:mt-8 bg-white">
             <button onClick={()=>setIsactive("mision")}
                className={`px-4 lg:px-8 md:px-6 py-2.5 lg:py-3 rounded-[15px]
@@ -42,14 +42,11 @@ export const LogicielData = function(){
 {/**----------------------Bim modelisation component items----------------------- */}
 export const BimModelisation = function(){
     return(
-        <motion.section 
+        <section 
         
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 mb-5">
         {BimItems.map((data, index) => (
-            <motion.div key={index}
-            initial={{opacity:0, y:35}}
-            whileInView={{opacity:1, transition:{duration:1}, y:0}}
-             viewport={{once:false, amount:0.5}}
+            <div key={index}
             className="w-full lg:w-115 bg-white p-3 rounded-xl hover:shadow-xl
             flex flex-col gap-2
             ">   
@@ -95,22 +92,20 @@ export const BimModelisation = function(){
                     </div>
                 )
              })()}
-            </motion.div>
+            </div>
         ))}
-        </motion.section>
+        </section>
     )
 };
 
 {/**------------------------Cao dessin component items--------------------------- */}
 export const CaoDesin = function(){
     return(
-        <motion.section 
+        <section 
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-5 mt-10">
                   {CaoItems.map((data, index)=> (
-              <motion.div key={index} 
-              initial={{opacity:0, y:35}}
-              whileInView={{opacity:1, transition:{duration:1}, y:0}}
-              viewport={{once:false, amount:0.5}}
+              <div key={index} 
+              
                          className="w-full lg:w-115 bg-white p-3 rounded-xl hover:shadow-xl
                         flex flex-col gap-2
                         ">
@@ -157,9 +152,9 @@ export const CaoDesin = function(){
                                         </div>
                                 )
                             })()}
-                        </motion.div>
+                        </div>
                  ))}
-        </motion.section>
+        </section>
     )
 };
 
@@ -184,7 +179,7 @@ export const GestionProject = function(){
                 const DoneI = i.doneicon;
                 const ArrowI = i.arrowicon;
                 return(
-                    <div className="flex flex-col gap-3 p-1">
+                    <div className="flex flex-col gap-3 p-1 text-black">
                         <main className="flex items-center gap-1">
                             {DoneI ? <DoneI /> : null}
                             <p>{i.model}</p>

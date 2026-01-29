@@ -55,7 +55,7 @@ const headerCards: headerCard[] = [
 ]
 export const HeaderSection = function(){
        return(
-        <section className=" relative right-5 bottom-10 w-100 md:w-195 lg:w-400  lg:h-180 h-full lg:right-4">
+        <section className=" relative right-5 bottom-10 w-140 md:w-195 lg:w-400  lg:h-180 h-full lg:right-4">
             <Swiper
                 modules={[Autoplay]}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}

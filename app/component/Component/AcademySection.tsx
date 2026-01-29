@@ -16,13 +16,13 @@ export const AcademySection = function(){
                 viewport={{once: false, amount: 0.5}}
                 transition={{duration:0.8, ease:"easeOut"}}
                 className="flex flex-col justify-center relative left-0 lg:left-30   items-center gap-5">
-                <p className="text-sm lg:text-xl md:text-lg">Apprenez auprès des meilleurs</p>
-                <h2 className="text-3xl lg:text-7xl font-semibold">ADAM&apos;S ACADEMY</h2>
+                <p className="text-lg lg:text-xl md:text-lg text-black">Apprenez auprès des meilleurs</p>
+                <h2 className="text-4xl lg:text-7xl font-semibold text-black">ADAM&apos;S ACADEMY</h2>
                 <p className="flex flex-col items-center text-sm lg:text-xl md:text-lg"> 
-                    <span className="flex flex-col lg:flex-row items-center"> Façonnez votre avenir dans le domaine du design 
-                     <span className="pl-2"> Architécture et</span>
+                    <span className="flex flex-col lg:flex-row items-center text-black"> Façonnez votre avenir dans le domaine du design 
+                     <span className="pl-2 text-black"> Architécture et</span>
                     </span>
-                    <span> La créativité du Génie Civil</span>
+                    <span className="text-black"> La créativité du Génie Civil</span>
                 </p>
                 </motion.div>
             </div>
