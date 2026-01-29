@@ -5,7 +5,7 @@ import { CatalogueModal } from "./CatalogueModal"
 export default function NavLinks() {
   const [ouvreLe, setouvreLe] = useState(false)
   return (
-    <ul className="hidden lg:flex gap-6 text-sm md:text-lg lg:text-lg text-white w-full">
+    <ul className="hidden lg:flex gap-6 text-sm  text-white w-full">
       <li className="">
         <Link href="/Acceuile">Accueil </Link>
       </li>

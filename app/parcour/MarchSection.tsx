@@ -11,8 +11,8 @@ export const MarchSection = function(){
              items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <CiSearch className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
-                <h4 className="text-sm lg:text-xl font-bold">Choisissez Votre Parcours</h4>
-                <p className="flex flex-col items-center text-sm ">
+                <h4 className="text-sm lg:text-xl font-bold text-red-300">Choisissez Votre Parcours</h4>
+                <p className="flex flex-col items-center text-sm text-red-300 ">
                     Sélectionnez le programme adapté à vos
                      <span>objectifs</span>
                 </p>
@@ -21,8 +21,8 @@ export const MarchSection = function(){
              items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <IoVideocamOutline className="text-5xl p-1 bg-red-300 rounded-full text-white" />
-                <h4  className="text-sm lg:text-xl font-bold">Suivez les Formations</h4>
-                <p className="flex flex-col items-center text-sm ">Apprenez à votre rythme avec nos cours
+                <h4  className="text-sm lg:text-xl font-bold text-red-300">Suivez les Formations</h4>
+                <p className="flex flex-col items-center text-sm text-red-300 ">Apprenez à votre rythme avec nos cours
                     <span>vidéo</span>
                 </p>
             </main>
@@ -30,8 +30,8 @@ export const MarchSection = function(){
              items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <MdOutlineSettings className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
-                <h4  className="text-sm lg:text-xl font-bold">Réalisez des Projets</h4>
-                <p  className="flex flex-col items-center text-sm ">Mettez en pratique sur des cas réels
+                <h4  className="text-sm lg:text-xl font-bold text-red-300">Réalisez des Projets</h4>
+                <p  className="flex flex-col items-center text-sm text-red-300 ">Mettez en pratique sur des cas réels
                     <span>sur tous les logiciels.</span>
                 </p>
             </main>
@@ -39,8 +39,8 @@ export const MarchSection = function(){
              items-center gap-3 w-full lg:w-87.5 hover:bg-neutral-300 bg-black
               hover:shadow-lg transition-all duration-300 rounded-lg p-3">
                 <GrCertificate className="text-5xl p-1 bg-red-300 rounded-full text-white"/>
-                <h4  className="text-sm lg:text-xl font-bold">Obtenez Votre Certificat</h4>
-                <p className="flex flex-col items-center text-sm ">Validez vos compétences officiellement
+                <h4  className="text-sm lg:text-xl font-bold text-red-300">Obtenez Votre Certificat</h4>
+                <p className="flex flex-col items-center text-sm text-red-300 ">Validez vos compétences officiellement
                    <span> avec une certificat.</span>
                 </p>
             </main>

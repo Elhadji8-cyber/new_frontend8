@@ -55,7 +55,7 @@ const headerCards: headerCard[] = [
 ]
 export const HeaderSection = function(){
        return(
-        <section className=" relative right-5 bottom-10 w-100 md:w-195 lg:w-600  lg:h-180 h-full lg:right-4">
+        <section className=" relative right-5 bottom-10 w-100 md:w-195 lg:w-400  lg:h-180 h-full lg:right-4">
             <Swiper
                 modules={[Autoplay]}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
@@ -75,7 +75,7 @@ export const HeaderSection = function(){
                         initial="hidden"
                         animate="visible"
                         transition={{duration:0.6}}
-                        className={` text-2xl w-80 md:w-150 lg:w-[65%] mt-50 lg:mt-50 md:text-4xl ml-5 lg:text-6xl text-white font-bold`}>{card.title}</motion.h2>
+                        className={` text-2xl w-80 md:w-150 lg:w-[65%] mt-50 lg:mt-50 md:text-4xl ml-5 lg:text-4xl text-white font-bold`}>{card.title}</motion.h2>
                         <motion.h3 
                         variants={fadeUp}
                         initial="hidden"
@@ -84,10 +84,10 @@ export const HeaderSection = function(){
                         className={`  text-sm md:text-lg w-80 md:w-150 lg:w-175 ml-5 lg:text-xl text-white`}>{card.description}</motion.h3>
                          <main className="flex gap-2 items-center ml-3 lg:ml-6 w-60 lg:w-full">
                                <Link href={card.link} className={` 
-                                 text-black w-25 md:w-35 px-3 py-1 lg:px-6 lg:py-2 bg-white rounded-full lg:w-40 size-fit  text-sm md:text-lg lg:text-xl `}>
+                                 text-black w-25 md:w-35 px-3 py-1 lg:px-6 lg:py-2 bg-white rounded-full lg:w-40 size-fit  text-sm md:text-lg lg:text-lg `}>
                                     Nos Cours </Link>
                                 <Link href={card.lien}
-                                className=" border-2 w-25 md:w-35 lg:w-40 px-2 py-1 lg:px-6 lg:py-2  border-white rounded-full text-white text-sm md:text-lg lg:text-xl"
+                                className=" border-2 w-25 md:w-35 lg:w-40 px-2 py-1 lg:px-6 lg:py-2  border-white rounded-full text-white text-sm md:text-lg lg:text-lg"
                                 > Catalogue</Link>
                          </main> 
                          <div className="flex justify-evenly ml-0 md:ml-4 lg:ml-5 mt-10 lg:mt-20 p-2 w-80 md:w-full lg:w-ful text-white">
