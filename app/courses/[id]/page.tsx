@@ -21,7 +21,7 @@ export default async function Home({ params }: { params: Promise<{ id: string }>
 const course = allcourses.find((item) => item.id === courseId);
 if(!course) return <div>Formation  Non trouver</div>;
     return(
-        <section className="flex flex-col jusify-center items-center bg-neutral-300 ">
+        <section className="flex flex-col jusify-center items-center bg-neutral-300 text-black ">
           <NavbarWrapper/>
           <div className=" flex flex-col lg:flex-row justify-center items-center gap-5 md:gap-10 lg:gap-20 p-2 mt-10">
             <main className="flex-1 w-full">
