@@ -25,7 +25,7 @@ export const CourseCard = function({course}: props){
     </div>
 
     {/* Contenu textuel */}
-    <div className="p-2 flex flex-col flex-grow">
+    <div className="p-2 flex flex-col grow">
       <h3 className="text-black text-lg font-bold leading-tight">{course.title}</h3>
       
       <hr className="my-2 border-neutral-300" />
