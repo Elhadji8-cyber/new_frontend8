@@ -80,7 +80,7 @@ export const FormulaireLg = function ({
           rounded-2xl
           shadow-lg
           p-6 md:p-8
-          flex flex-col gap-5
+          flex flex-col gap-5 text-black
         "
       >
         {showSelect && (

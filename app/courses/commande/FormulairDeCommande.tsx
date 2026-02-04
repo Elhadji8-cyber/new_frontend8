@@ -64,7 +64,7 @@ export const FormulairDeCommande = function ({
     <section className="w-full flex justify-center px-4 py-10">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-xl bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col gap-5"
+        className="w-full max-w-xl bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col gap-5 text-black"
       >
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
           Formulaire de commande
