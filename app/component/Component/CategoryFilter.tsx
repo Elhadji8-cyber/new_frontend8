@@ -65,7 +65,7 @@ export const CategoryFilter = function(){
                    <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer text-black"><Link href="../../logiciel">ETABS</Link></li>
                    <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer text-black"><Link href="../../logiciel">GRAITEC Advance</Link></li>
                    <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer text-black"><Link href="../../logiciel">ACAPULCO</Link></li>
-                   <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer text-black"><Link href="../../logiciel">Voire Plus</Link></li>
+                   <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer text-black"><Link href="../../logiciel">Voir Plus</Link></li>
                 </motion.ul>
               )}  
             </AnimatePresence>

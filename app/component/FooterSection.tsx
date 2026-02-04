@@ -21,7 +21,7 @@ export const FooterSection = function(){
                      '/>
                      <div>
                      <h4 className='text-sm lg:text-xl font-bold text-white'>Adam&apos;s Online</h4>
-                     <p className='text-white'>Votre Platforme de formation</p>
+                     <p className='text-white'>Votre Plateforme de formation</p>
                      </div>
                      </div>
                     <p className='flex flex-col items-center text-white text-xl'>
