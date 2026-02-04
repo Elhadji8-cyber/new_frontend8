@@ -14,7 +14,7 @@ import { MdOutline18UpRating } from "react-icons/md";
 import { IoStar } from "react-icons/io5";
 import NavbarWrapper from "../../component/NavbarWrapper"
 import Image from "next/image";
-const Registration = new Date("2026-6-01T23:59:59")
+const Registration = new Date("2027-6-01T23:59:59")
 export default async function Home({ params }: { params: Promise<{ id: string }> }) {
     const {id} = await params;
     const courseId = Number(id)
