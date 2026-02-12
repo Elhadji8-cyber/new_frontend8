@@ -1,17 +1,46 @@
 "use client";
 import { useState } from "react";
+import CardItems from "../Donnee";
 
 type Props = {
   formationId: number;
-  formationName: string;
+  hasMultipleFormations?: boolean;
+  formationName?: string[];
 };
 
-export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
+export const FormulairDeCommande = ({ formationId, hasMultipleFormations, formationName = [] }: Props) => {
+  
+  // 1. Find the specific card data using the ID
+  const card = CardItems.find((c) => c.id === Number(formationId));
+
+  // 2. Determine if we should show the select dropdown
+  // We check the prop first, then fallback to the data from the file
+  const isMultiple = hasMultipleFormations ?? card?.hasMulplesFormations ?? false;
+
+  // 3. Extract options (competences) if they aren't passed as props
+  let options: string[] = Array.isArray(formationName) && formationName.length > 0 ? formationName : [];
+
+  if (options.length === 0 && card && isMultiple) {
+    // Find the detail object that contains the competences (usually the second item in your array)
+    const details = card.detaille.find((d) => d.competence);
+    if (details) {
+      if (details.revite) options.push(details.revite);
+      if (details.AutoCAD) options.push(details.AutoCAD);
+      if (details.Normes) options.push(details.Normes);
+      if (details.Plans) options.push(details.Plans);
+      if (details.techniques) options.push(details.techniques);
+      if (details.Layouts) options.push(details.Layouts);
+    }
+  }
+
+  const showSelect = isMultiple && options.length > 0;
+
   const [form, setForm] = useState({
     name: "",
     email: "",
     phone: "",
     besoin: "",
+    formationName: "", // Stores the selected competence
   });
 
   const [loading, setLoading] = useState(false);
@@ -20,7 +49,7 @@ export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
   const WHATSAPP_NUMBER = "221770862226"; // 🔁 remplace si besoin
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
@@ -29,14 +58,18 @@ export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-//-------configuration api de" commande whatsaap
+
+    // Use the selected formation from the dropdown, or the card title if no dropdown
+    const selectedFormation = showSelect ? form.formationName : (card?.title || "Formation Parcours");
+
+    //-------configuration api de" commande whatsaap
     const message = `
      📩 *Nouvelle commande formation*
      ━━━━━━━━━━━━━━━━━━
     👤 Nom: ${form.name}
     📧 Email: ${form.email}
     📞 Téléphone: ${form.phone}
-   🎓 Formation: ${formationName}
+   🎓 Formation: ${selectedFormation}
    📝 Message: ${form.besoin || "—"}
     ━━━━━━━━━━━━━━━━━━
     `;
@@ -49,7 +82,7 @@ export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
 
     setLoading(false);
     setSuccess(true);
-    setForm({ name: "", email: "", phone: "", besoin: "" });
+    setForm({ name: "", email: "", phone: "", besoin: "", formationName: "" });
   };
 
   return (
@@ -61,6 +94,25 @@ export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
         <h2 className="text-xl md:text-2xl font-bold text-gray-800">
           Formulaire de commande
         </h2>
+
+        {/* Select Input for Competences */}
+        {showSelect && (
+          <div className="flex flex-col gap-2">
+            <label className="font-semibold text-gray-700">Choisir une compétence / Logiciel</label>
+            <select
+              name="formationName"
+              value={form.formationName}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-orange-500 bg-white"
+            >
+              <option value="">-- Sélectionnez une option --</option>
+              {options.map((opt, index) => (
+                <option key={index} value={opt}>{opt}</option>
+              ))}
+            </select>
+          </div>
+        )}
 
         <input
           type="text"
@@ -118,4 +170,3 @@ export const FormulairDeCommande = ({ formationId, formationName }: Props) => {
     </section>
   );
 };
-

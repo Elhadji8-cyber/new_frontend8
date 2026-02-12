@@ -34,6 +34,9 @@ type CardData = {
     type:string;
     link:string;
   }>
+
+  //optional
+  hasMulplesFormations?:boolean;
 }
 const CardItems: CardData[] = [
     {
@@ -42,6 +45,7 @@ const CardItems: CardData[] = [
         niveau:"Intermédiaire",
         title:"Architecte BIM",
         description:"Devenez expert en modélisation BIM et conception architecturale avec Revit et ArchiCAD",
+        hasMulplesFormations: true,
         detaille:[
         {
         iconsTime:WiTime9,
@@ -75,6 +79,7 @@ const CardItems: CardData[] = [
     niveau:"Intermédiaire",
     title:"Ingénieur Structure",
     description:"Maîtrisez le calcul et la modélisation des structures en béton et acier",
+     hasMulplesFormations: true,
     detaille:[
         {
         iconsTime:WiTime9,
@@ -106,6 +111,7 @@ const CardItems: CardData[] = [
     niveau:"Intermédiaire",
     title:"Dessinateur CAO",
     description:"Apprenez le dessin technique 2D/3D avec AutoCAD et les standards professionnels",
+    hasMulplesFormations: true,
     detaille: [
         {
         iconsTime:WiTime9,
@@ -137,6 +143,7 @@ const CardItems: CardData[] = [
     niveau:"Intermédiaire",
     title:"Chef de Projet Construction",
     description:"Pilotez vos projets de construction avec les outils de planification professionnels",
+    hasMulplesFormations:true,
     detaille:[
         {
         iconsTime:WiTime9,
@@ -168,6 +175,7 @@ const CardItems: CardData[] = [
     niveau:"Intermédiaire",
     title:"Ingénieur VRD",
     description:"Spécialisez-vous dans la conception des infrastructures et réseaux",
+    hasMulplesFormations:true,
     detaille:[
         {
         iconsTime:WiTime9,
@@ -198,6 +206,7 @@ const CardItems: CardData[] = [
     niveau:"Intermédiaire",
     title:"Designer 3D Architecture",
     description:"Créez des visualisations architecturales époustouflantes",
+    hasMulplesFormations:true,
     detaille:[
     {
     iconsTime:WiTime9,
