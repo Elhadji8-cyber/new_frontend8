@@ -4,13 +4,9 @@ import CardItems from "./Donnee"
 import Link from "next/link";
 import {motion} from "framer-motion"
 
-type Props = {
-  knowlegeId: number;
-  hasMultipleFormations: boolean;
-  formation: string[];
-}
 
-export const CardDomain = function({knowlegeId, hasMultipleFormations, formation = []}: Props){
+
+export const CardDomain = function( ){
     return(
         <section className="flex flex-col justify-center  items-center mt-20 bg-neutral-300 p-5 lg:p-10">
            <motion.div 

@@ -10,18 +10,17 @@ type Props = {
 
 export const FormulairDeCommande = ({ formationId, hasMultipleFormations, formationName = [] }: Props) => {
   
-  // 1. Find the specific card data using the ID
+  // ------- je vais trouveles donné qui vas etre ne mode select
   const card = CardItems.find((c) => c.id === Number(formationId));
 
-  // 2. Determine if we should show the select dropdown
-  // We check the prop first, then fallback to the data from the file
+  // 2.-------je determine si je vais montré le select avec un dropdow
+  // ---------je verifie le props dabord aprés je fait le fallback par les donnée
   const isMultiple = hasMultipleFormations ?? card?.hasMulplesFormations ?? false;
 
-  // 3. Extract options (competences) if they aren't passed as props
+
   let options: string[] = Array.isArray(formationName) && formationName.length > 0 ? formationName : [];
 
   if (options.length === 0 && card && isMultiple) {
-    // Find the detail object that contains the competences (usually the second item in your array)
     const details = card.detaille.find((d) => d.competence);
     if (details) {
       if (details.revite) options.push(details.revite);
