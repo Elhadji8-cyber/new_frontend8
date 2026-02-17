@@ -17,6 +17,7 @@ export type CardData = {
         sousprix: string;
         pourcentage: string;
         link: string;
+        slug: string;
         header: {
             letitre:string;
             card: {

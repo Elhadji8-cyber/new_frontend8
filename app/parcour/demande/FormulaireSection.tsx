@@ -20,17 +20,6 @@ export const FormulairDeCommande = ({ formationId, hasMultipleFormations, format
 
   let options: string[] = Array.isArray(formationName) && formationName.length > 0 ? formationName : [];
 
-  if (options.length === 0 && card && isMultiple) {
-    const details = card.detaille.find((d) => d.competence);
-    if (details) {
-      if (details.revite) options.push(details.revite);
-      if (details.AutoCAD) options.push(details.AutoCAD);
-      if (details.Normes) options.push(details.Normes);
-      if (details.Plans) options.push(details.Plans);
-      if (details.techniques) options.push(details.techniques);
-      if (details.Layouts) options.push(details.Layouts);
-    }
-  }
 
   const showSelect = isMultiple && options.length > 0;
 

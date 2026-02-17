@@ -20,6 +20,7 @@ const ArchitectureData:CardData[] = [
         sousprix: "95.000",
         pourcentage: "37%",
         link: "voire le cours",
+        slug: "architecte-bim",
         header:{
             letitre:"Formation Archicad : Modélisation Architecturale Complete ",
             card:{
@@ -101,6 +102,7 @@ const ArchitectureData:CardData[] = [
         sousprix: "95.000",
         pourcentage: "37%",
         link: "voire le cours",
+        slug: "architecte-bim",
         header:{
              letitre:"Formation Artlantis : De zero à Expert ",
              card:{
@@ -181,6 +183,7 @@ const ArchitectureData:CardData[] = [
         sousprix: "95.800",
         pourcentage: "37%",
         link: "voire le cours",
+        slug: "dessinateur-cao",
         header:{
             letitre:"Formation Autocad : Desin Technique Avancé  ",
             card:{
@@ -261,6 +264,7 @@ const ArchitectureData:CardData[] = [
         sousprix: "95.000",
         pourcentage: "37%",
         link: "voire le cours",
+        slug: "architecte-bim",
         header:{
              letitre:" Maîtrise de Lumion pour la Visualisation Architecturale Photorealiste",
              card:{
@@ -341,6 +345,7 @@ const ArchitectureData:CardData[] = [
         sousprix: "125.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "architecte-bim",
         header:{
              letitre:" Formation : Maîtrise d'Autodesk Revit Architecture - Concevoir en BIM",
              card:{

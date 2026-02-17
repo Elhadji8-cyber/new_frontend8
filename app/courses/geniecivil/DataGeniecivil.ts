@@ -20,6 +20,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header: {
             letitre:"Formation Acapulco : De zero à Expert" ,
             card: {
@@ -100,6 +101,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header:{
             letitre:"Formation Alize LCPC : De zero à Expert ",
             card: {
@@ -181,6 +183,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "125.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header:{
             letitre:"Formation CYPE : De zero à Expert ",
             card:{
@@ -262,6 +265,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "95.000",
         pourcentage: "37%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header:{
             letitre:"Formation Caniveaux : De zero à Expert ",
             card:{
@@ -342,6 +346,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "175.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "ingenieur-vrd",
         header:{
             letitre:"Formation Civil 3D : De zero à Expert ",
             card:{
@@ -422,6 +427,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "175.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "ingenieur-vrd",
         header:{
             letitre:"Formation Covadis : De zero à Expert ",
             card:{
@@ -502,6 +508,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "95.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "ingenieur-vrd",
         header:{
             letitre:"Formation Edilus : De zero à Expert ",
             card:{
@@ -582,6 +589,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header:{
             letitre:"Formation Graitec Advance Design : De zero à Expert ",
             card:{
@@ -662,6 +670,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "145.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug:"ingenieur-vrd",
         header:{
             letitre:"Formation InfraWorks 360 : De zero à Expert ",
             card:{
@@ -743,6 +752,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug:"gestion-des-projets",
         header:{
             letitre:"Formation InfraWorks 360 : De zero à Expert ",
             card:{
@@ -823,6 +833,7 @@ const DataGenicivil:CardData[] =[
       sousprix: "95.000",
       pourcentage: "25%",
       link: "voire le cours",
+      slug: "ingenieur-structure",
       header:{
             letitre:"Formation Mur de Soutenement: De zero à Expert ",
             card:{
@@ -903,6 +914,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "125.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug: "architecte-bim",
         header:{
             letitre:"Formation Navisworks: De zero à Expert ",
             card:{
@@ -983,6 +995,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "145.000",
         pourcentage: "25%",
         link: "voire le cours",
+        slug:"ingenieur-structure",
            header:{
             letitre:"Devenz Expert en Conception, Dimensionnement et Réalisation des Pieux et Fondations Profondes",
             card:{
@@ -1063,6 +1076,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "85.000",
         pourcentage: "25%",
         link: "voire le cours", 
+        slug:"ingenieur-structure",
         header:{
             letitre:"Formation Piscine:  Conception et Réalisation de Piscines en Génie Civil",
             card:{
@@ -1144,6 +1158,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug: "ingenieur-structure",
         header:{
             letitre:"Formation Robot + Millennium: Ingénierie Structurelle (Robot) et Gestion de Projets BTP (Millennium)",
             card:{
@@ -1224,6 +1239,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug:"ingenieur-structure",
          header:{
             letitre:"Formation Robot DDC: Maîtrise de la Descente De Charges (DDC) avec Robot Structural Analysis",
             card:{
@@ -1304,6 +1320,7 @@ const DataGenicivil:CardData[] =[
         sousprix: "120.000",
         pourcentage: "33%",
         link: "voire le cours",
+        slug:"ingenieur-structure",
         header:{
             letitre:"Formation Robot DDC: Maîtrise de Tekla Structural Designer (TSD)",
             card:{
@@ -1384,6 +1401,7 @@ const DataGenicivil:CardData[] =[
     sousprix: "75.000",
     pourcentage: "25%",
     link: "voir le cours",
+    slug: "ingenieur-structure",
     header: {
         letitre: "Robot Structural Béton Armé : Étude complète d’un château...",
         card: {
@@ -1464,6 +1482,7 @@ const DataGenicivil:CardData[] =[
     sousprix: "120.000",
     pourcentage: "33%",
     link: "voir le cours",
+    slug: "etude-des-prix",
     header: {
         letitre: "Comment faire un devis de construction : Méthode professionnelle BTP",
         card: {
@@ -1528,7 +1547,7 @@ const DataGenicivil:CardData[] =[
     }
 },
 {
-    id: 24,
+    id: 25,
     titre: "Génie civil",
     best: "Très demandé",
     time: "13h10",
@@ -1544,6 +1563,7 @@ const DataGenicivil:CardData[] =[
     sousprix: "125.000",
     pourcentage: "25%",
     link: "voir le cours",
+    slug: "ingenieur-structure",
     header: {
         letitre: "Études en structure métallique : De A à Z",
         card: {
@@ -1608,7 +1628,7 @@ const DataGenicivil:CardData[] =[
     }
 },
 {
-    id: 25,
+    id: 26,
     titre: "Génie civil",
     best: "Très pratique",
     time: "8h40",
@@ -1624,6 +1644,7 @@ const DataGenicivil:CardData[] =[
     sousprix: "120.000",
     pourcentage: "31%",
     link: "voir le cours",
+    slug: "ingenieur-structure",
     header: {
         letitre: "Étude et dimensionnement d’un dalot en béton armé",
         card: {
@@ -1688,7 +1709,7 @@ const DataGenicivil:CardData[] =[
     }
 },
 {
-    id: 26,
+    id: 27,
     titre: "Génie civil",
     best: "Expert",
     time: "15h30",
@@ -1704,6 +1725,7 @@ const DataGenicivil:CardData[] =[
     sousprix: "225.000",
     pourcentage: "25%",
     link: "voir le cours",
+    slug: "ingenieur-structure",
     header: {
         letitre: "Ponts sur pieux : Études complètes (Poutres, Dalles et Mixtes)",
         card: {
