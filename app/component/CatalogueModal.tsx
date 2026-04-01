@@ -3,7 +3,7 @@ import logo from "../image/logo.jpg"
 import Image from "next/image";
 import Link from "next/link";
 import {useState, useEffect } from "react";
-import {motion, AnimatePresence} from "framer-motion"
+import {AnimatePresence} from "framer-motion"
 import { SiAltiumdesigner } from "react-icons/si";
 import { SiBlackmagicdesign } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";

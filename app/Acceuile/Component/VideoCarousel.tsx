@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import { IoArrowUpSharp } from "react-icons/io5";
-import { useRef, useEffect } from "react"
+import {  useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 
 type VideoCard = {

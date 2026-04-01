@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { allLogiciels } from "../CardData";
 
 type Props = {
   logicielId: number;
@@ -12,6 +13,9 @@ export const FormulaireLg = function ({
   hasMultipleFormations,
   formation = [],
 }: Props) {
+  const logiciel = allLogiciels.find((l) => l.id === logicielId);
+  const logicielName = logiciel?.title || "logiciel";
+
   const showSelect = hasMultipleFormations === true;
 
   const [form, setForm] = useState({
@@ -37,17 +41,17 @@ export const FormulaireLg = function ({
     e.preventDefault();
     setLoading(true);
 
-    const formationFinale = showSelect
-      ? form.formation
-      : "Demande logiciel";
+    const formationFinale = showSelect ? form.formation : logicielName;
+    const titreMessage = `Nouvelle demande ${logicielName}`;
 
     const message = `
-    🟢 *Nouvelle demande logiciel*
+    🟢 *${titreMessage}*
 
    👤 Nom : ${form.name}
    📧 Email : ${form.email}
    📞 Téléphone : ${form.phone}
-   💻 Formation : ${formationFinale}
+   💻 Logiciel : ${logicielName}
+   🎓 Formation : ${formationFinale}
 
    📝 Besoin :
     ${form.besoin}

@@ -12,13 +12,13 @@ export const InstroctorSection = function(){
                       <span>Transformez votre avenir.</span>
                      </h3>
                      <p className='flex flex-col text-orange-500 p-2 text-sm md:text-lg lg:text-xl'>
-                         Rejoignez les milliers d'apprenants qui ont déjà suivi leur
+                         Rejoignez les milliers d&apos;apprenants qui ont déjà suivi leur
                          <span>Faites passer votre carrière au niveau supérieur grâce</span>
                            <span>  à des cours dispensés par des experts.</span>
-                     </p>
-                     <Link href="#"
-                     className='px-6 py-2 lg:py-3 lg:text-xl text-sm bg-orange-500 text-white rounded-lg text-center'
-                     >Inscrit Toi Dés aujourd'huit</Link>
+                      </p>
+                      <Link href="#"
+                      className='px-6 py-2 lg:py-3 lg:text-xl text-sm bg-orange-500 text-white rounded-lg text-center'
+                      >Inscrit Toi Dés aujourd&apos;huit</Link>
                 </main>
                 {/*--------image section-----*/}
                 <main className='w-full lg:w-[750px] lg:h-[370px]'>
@@ -30,9 +30,9 @@ export const InstroctorSection = function(){
             <div className='lg:w-[500px] w-full bg-black text-orange-500 lg:p-5 p-2 rounded-xl'>
                 <h1 className='lg:text-6xl text-3xl font-bold flex flex-col p-2'>Devenir Instructeur</h1>
                 <p className='flex flex-col lg:text-xl text-sm p-1'>
-                    Rejoignez notre communauté d'enseignants et touchez
-                    <span>Rejoignez notre communauté d'enseignants et </span>
-                    <span> touchez des milliers d'étudiants à travers le monde.</span>
+                    Rejoignez notre communauté d&apos;enseignants et touchez
+                    <span>Rejoignez notre communauté d&apos;enseignants et </span>
+                    <span> touchez des milliers d&apos;étudiants à travers le monde.</span>
                     <span>grâce à votre expertise.</span>
                 </p>
                 <Link href="#"

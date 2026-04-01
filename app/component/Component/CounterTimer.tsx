@@ -5,7 +5,7 @@ type Props = {
     label?: string
 }
 export const CounterTimer = function({endDate, label}: Props){
-    const [timeLeft, setTimeLeft] = useState(
+    const [timeLeft, setTimeLeft] = useState(() =>
           endDate.getTime() - Date.now()
     );
     useEffect(()=> {

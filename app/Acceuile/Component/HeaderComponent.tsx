@@ -1,16 +1,11 @@
-import {Jost} from "next/font/google"
 import Link from "next/link"
 import Image from "next/image"
 import dev from "../../../public/apprend.jpg"
 import { FaArrowRight } from "react-icons/fa";
-import { IoArrowForwardOutline } from "react-icons/io5";
 import heroimage from "../../../public/hero-image.jpg"
 import heroimage2 from "../../../public/hero-image2.jpg"
 import heroimage3 from "../../../public/hero-image3.jpg"
-const jost = Jost({
-    subsets: ["latin"],
-    weight: ["400", "700"]
-})
+
 export const HeaderComponent = function(){
     return(
         <section className="flex md:flex-row flex-col gap-2 justify-center  mt-20">
@@ -30,7 +25,7 @@ export const HeaderComponent = function(){
                     <p className="flex flex-col w-full text-sm  md:text-lg lg:w-[70%]">
                      ODS (Orange Digital School), la plateforme de formation numérique 
                        <span>qui prépare la nouvelle génération de talents africains aux compétences </span>
-                       <span> du 21ᵉ siècle le savoir numérique est une clé pour l’avenir </span>
+                       <span> du 21ᵉ siècle le savoir numérique est une clé pour l&apos;avenir </span>
                     </p>
                    </article>
                 </main>

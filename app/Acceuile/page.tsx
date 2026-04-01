@@ -1,5 +1,4 @@
 import {HeaderSection} from "../component/Header"
-import {FormationSection} from "../component/FormationSection"
 import {CategoryFilter} from "../component/Component/CategoryFilter"
 import {AcademySection} from "../component/Component/AcademySection"
 import { allcourses } from "../courses/allcourses";

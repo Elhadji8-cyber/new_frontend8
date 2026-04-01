@@ -82,7 +82,7 @@ export const TechnologySection = function(){
                 </main>
 
                 <main className="flex justify-between mr-10 w-[300px] lg:mt-10 mt-0 relative right-7 lg:mt-0 lg:ml-20 bg-black h-[60px] lg:h-[96px]  lg:w-[80%] p-2 rounded-full items-center">
-                   <h2 className="bg-white lg:px-6 px-3 lg:p-5  p-2 rounded-full text-sm lg:text-5xl font-bold w-full">Catégorie d'apprentissage ci-dessous </h2>
+                   <h2 className="bg-white lg:px-6 px-3 lg:p-5  p-2 rounded-full text-sm lg:text-5xl font-bold w-full">Catégorie d&apos;apprentissage ci-dessous </h2>
                 </main>
                 </article>
                 {/*-------------main svg----------------------*/}

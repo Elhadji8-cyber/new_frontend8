@@ -2,7 +2,6 @@
 "use client"
 import Link from "next/link"
 import Image from "next/image"
-import {Jost} from "next/font/google"
 import type {StaticImageData} from "next/image";
 import image1 from "../image/image-1.png"
 import image2 from "../image/image-2.jpg"

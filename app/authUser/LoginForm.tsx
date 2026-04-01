@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { PiSmileySticker } from "react-icons/pi";
+
 export const LoginForm = function(){
     return(
             <section className="min-h-screen flex items-center justify-center">

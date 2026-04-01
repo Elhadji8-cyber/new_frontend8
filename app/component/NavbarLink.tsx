@@ -1,9 +1,5 @@
 import Link from "next/link";
-import {useState} from "react"
-import {CatalogueSection} from "./CatalogueSection"
-import { CatalogueModal } from "./CatalogueModal"
 export default function NavLinks() {
-  const [ouvreLe, setouvreLe] = useState(false)
   return (
     <ul className="hidden lg:flex gap-6 text-sm  text-white w-full">
       <li className="">

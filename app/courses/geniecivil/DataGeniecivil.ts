@@ -754,7 +754,7 @@ const DataGenicivil: CardData[] = [
         link: "voire le cours",
         slug: "gestion-des-projets",
         header: {
-            letitre: "Formation InfraWorks 360 : De zero à Expert ",
+            letitre: "Formation MS Project 360 : De zero à Expert ",
             card: {
                 vente: "best seller",
                 likeicon: AiOutlineLike,
@@ -764,7 +764,7 @@ const DataGenicivil: CardData[] = [
                 audioIcon: LuAudioLines,
                 audio: "Français"
             },
-            imagedesc: "/image/FORMATION INFRAWORKS 360.jpg",
+            imagedesc: "/image/FORMATION MS PROJET.jpg",
             coursedetaille: "   Devenir expert sur InfraWorks : Modélisation de contexte, conception préliminaire et communication de projets d'infrastructures.",
             asavoir: "La formation est basée sur une approche  (apprendre en faisant). Les participants travaillent sur des projets concrets, de la création initiale du modèle à la présentation finale, guidés par un expert d'InfraWorks.",
             detaille: [
@@ -2201,6 +2201,332 @@ const DataGenicivil: CardData[] = [
         }
     },
 
+    {
+  id: 33,
+  titre: "Génie civil",
+  best: "Nouveaux",
+  time: "15h30",
+  image: "/image/PROMO RESERVOIR METALLIQUE.jpg",
+  title: "Formation : Étude d’un Réservoir Métallique",
+  title2: "De la Conception à l’Analyse Complète des Réservoirs Métalliques",
+  photo: "/image/security.jpeg",
+  nom: "Adama Sympavy",
+  description: "Apprenez à étudier, dimensionner et analyser les réservoirs métalliques avec des cas pratiques et des projets réels.",
+  description2: "Cette formation couvre l’ensemble des étapes nécessaires pour maîtriser l’étude des réservoirs métalliques : conception, choix des matériaux, calculs de stabilité et vérification des assemblages. Grâce à des exercices guidés et des études de cas, vous serez capable de réaliser vos projets avec précision et efficacité.",
+  minititre: "Réservoir Métallique",
+  prix: "60.000",
+  sousprix: "90.000",
+  pourcentage: "33%",
+  link: "voir le cours",
+  slug: "reservoir-metalique",
+  header: {
+    letitre: "Formation : Étude d’un Réservoir Métallique",
+    card: {
+      vente: "best seller",
+      likeicon: AiOutlineLike,
+      review: "85% positive reviews (1.2k)",
+      iconUser: RiAccountCircle2Line,
+      student: "7,500 élèves",
+      audioIcon: LuAudioLines,
+      audio: "Français"
+    },
+    imagedesc: "/image/PROMO RESERVOIR METALLIQUE.jpg",
+    coursedetaille: "Étude complète des réservoirs métalliques : conception, dimensionnement, stabilité et vérification des assemblages.",
+    asavoir: "La formation s’appuie sur des exercices pratiques, des études de cas réels et la manipulation directe des outils de calcul.",
+    detaille: [
+      {
+        "mintit": "Introduction aux Réservoirs Métalliques",
+        "desc": "Présentation des types de réservoirs et de leurs applications."
+      },
+      {
+        "mintit": "Normes et Critères de Dimensionnement",
+        "desc": "Étude des normes en vigueur et critères de calcul."
+      },
+      {
+        "mintit": "Analyse des Contraintes",
+        "desc": "Calcul des efforts internes et vérification de la stabilité."
+      },
+      {
+        "mintit": "Étude des Matériaux",
+        "desc": "Choix des aciers et propriétés mécaniques."
+      },
+      {
+        "mintit": "Assemblages et Soudures",
+        "desc": "Méthodes de vérification et bonnes pratiques."
+      },
+      {
+        "mintit": "Études de Cas Pratiques",
+        "desc": "Application sur des projets réels et simulations."
+      }
+    ],
+    leprix: {
+      priactu: "60.000",
+      priavant: "90.000",
+      categori: {
+        categorie: "Catégories",
+        geniecivil: "Génie Civil",
+        duree: "Durée",
+        heure: "15h30mn",
+        apprend: "Apprenants",
+        neleve: "7,500",
+        certificat: "Certificat",
+        inclus: "Inclus"
+      },
+      tachecours: {
+        videodetail: "Plus de 60 vidéos bien détaillées.",
+        pratique: "Des cas pratiques bien expliqués.",
+        acces: "Accès à la communauté des Ingénieurs sur Discord.",
+        doc: "Des fichiers ressources pour faciliter vos projets.",
+        button: "commande"
+      }
+    }
+  }
+},
+
+ {
+  id: 34,
+  titre: "Génie civil",
+  best: "Nouveaux",
+  time: "15h30",
+  image: "/image/REVIT  PROMO.jpg",
+  title: "Formation : Étude d’un Bâtiment sur Radier Général",
+  title2: "De la Conception aux Calculs de Radier Général",
+  photo: "/image/security.jpeg",
+  nom: "Adama Sympavy",
+  description: "Apprenez à étudier et dimensionner un bâtiment sur radier général avec des cas pratiques et des projets réels.",
+  description2: "Cette formation vous permettra de maîtriser l’étude des bâtiments fondés sur radier général : conception, calculs de stabilité, vérification des contraintes et choix des matériaux. Grâce à des exercices guidés et des études de cas, vous serez capable de réaliser vos projets avec précision et efficacité.",
+  minititre: "Radier Général",
+  prix: "80.000",
+  sousprix: "120.000",
+  pourcentage: "33%",
+  link: "voir le cours",
+  slug: "batiment-radier-general",
+  header: {
+    letitre: "Formation : Étude d’un Bâtiment sur Radier Général",
+    card: {
+      vente: "best seller",
+      likeicon: AiOutlineLike,
+      review: "88% positive reviews (1.8k)",
+      iconUser: RiAccountCircle2Line,
+      student: "8,200 élèves",
+      audioIcon: LuAudioLines,
+      audio: "Français"
+    },
+    imagedesc: "/image/REVIT  PROMO.jpg",
+    coursedetaille: "Étude complète des bâtiments sur radier général : conception, dimensionnement, stabilité et vérification des contraintes.",
+    asavoir: "La formation s’appuie sur des exercices pratiques, des études de cas réels et la manipulation directe des outils de calcul.",
+    detaille: [
+      {
+        mintit: "Introduction au Radier Général",
+        desc: "Présentation du radier général et ses applications en génie civil."
+      },
+      {
+        mintit: "Normes et Critères de Dimensionnement",
+        desc: "Étude des normes en vigueur et critères de calcul pour les fondations."
+      },
+      {
+        mintit: "Analyse des Contraintes",
+        desc: "Calcul des efforts internes et vérification de la stabilité du radier."
+      },
+      {
+        mintit: "Étude des Matériaux",
+        desc: "Choix des bétons et aciers adaptés aux fondations."
+      },
+      {
+        mintit: "Assemblages et Détails Constructifs",
+        desc: "Méthodes de vérification et bonnes pratiques pour les assemblages."
+      },
+      {
+        mintit: "Études de Cas Pratiques",
+        desc: "Application sur des projets réels et simulations de bâtiments."
+      }
+    ],
+    leprix: {
+      priactu: "80.000",
+      priavant: "120.000",
+      categori: {
+        categorie: "Catégories",
+        geniecivil: "Génie Civil",
+        duree: "Durée",
+        heure: "15h30mn",
+        apprend: "Apprenants",
+        neleve: "8,200",
+        certificat: "Certificat",
+        inclus: "Inclus"
+      },
+      tachecours: {
+        videodetail: "Plus de 70 vidéos bien détaillées.",
+        pratique: "Des cas pratiques bien expliqués.",
+        acces: "Accès à la communauté des Ingénieurs sur Discord.",
+        doc: "Des fichiers ressources pour faciliter vos projets.",
+        button: "commande"
+      }
+    }
+  }
+},
+
+ {
+  id: 35,
+  titre: "Génie civil",
+  best: "Nouveaux",
+  time: "15h30",
+  image: "/image/ROBOT PROMO 2 edition.jpg",
+  title: "Formation : Étude d’un Bâtiment sur Radier Général avec Robot Structural",
+  title2: "De la Conception aux Calculs Avancés avec Robot Structural",
+  photo: "/image/security.jpeg",
+  nom: "Adama Sympavy",
+  description: "Apprenez à étudier et dimensionner un bâtiment sur radier général en utilisant Robot Structural.",
+  description2: "Cette formation vous permettra de maîtriser l’étude des bâtiments fondés sur radier général grâce au logiciel Robot Structural. Vous apprendrez à modéliser, analyser et vérifier la stabilité des structures avec des cas pratiques et des projets réels. Que vous soyez étudiant ou ingénieur, vous développerez une autonomie et une précision indispensables pour vos projets professionnels.",
+  minititre: "Radier Général - Robot Structural",
+  prix: "70.000",
+  sousprix: "100.000",
+  pourcentage: "30%",
+  link: "voir le cours",
+  slug: "batiment-radier-robot",
+  header: {
+    letitre: "Formation : Étude d’un Bâtiment sur Radier Général avec Robot Structural",
+    card: {
+      vente: "best seller",
+      likeicon: AiOutlineLike,
+      review: "90% positive reviews (2k)",
+      iconUser: RiAccountCircle2Line,
+      student: "8,500 élèves",
+      audioIcon: LuAudioLines,
+      audio: "Français"
+    },
+    imagedesc: "/image/ROBOT PROMO 2 edition.jpg",
+    coursedetaille: "Étude complète des bâtiments sur radier général avec Robot Structural : conception, modélisation, dimensionnement et vérification des contraintes.",
+    asavoir: "La formation s’appuie sur des exercices pratiques, des études de cas réels et la manipulation directe du logiciel Robot Structural.",
+    detaille: [
+      {
+        mintit: "Introduction au Radier Général et Robot Structural",
+        desc: "Présentation du radier général et prise en main du logiciel Robot Structural."
+      },
+      {
+        mintit: "Normes et Critères de Dimensionnement",
+        desc: "Étude des normes en vigueur et critères de calcul pour les fondations."
+      },
+      {
+        mintit: "Modélisation sur Robot Structural",
+        desc: "Création du modèle numérique et paramétrage des charges."
+      },
+      {
+        mintit: "Analyse des Contraintes",
+        desc: "Calcul des efforts internes et vérification de la stabilité du radier."
+      },
+      {
+        mintit: "Étude des Matériaux",
+        desc: "Choix des bétons et aciers adaptés aux fondations."
+      },
+      {
+        mintit: "Études de Cas Pratiques",
+        desc: "Application sur des projets réels et simulations complètes."
+      }
+    ],
+    leprix: {
+      priactu: "70.000",
+      priavant: "100.000",
+      categori: {
+        categorie: "Catégories",
+        geniecivil: "Génie Civil",
+        duree: "Durée",
+        heure: "15h30mn",
+        apprend: "Apprenants",
+        neleve: "8,500",
+        certificat: "Certificat",
+        inclus: "Inclus"
+      },
+      tachecours: {
+        videodetail: "Plus de 75 vidéos bien détaillées.",
+        pratique: "Des cas pratiques bien expliqués.",
+        acces: "Accès à la communauté des Ingénieurs sur Discord.",
+        doc: "Des fichiers ressources pour faciliter vos projets.",
+        button: "commande"
+      }
+    }
+  }
+},
+{
+  id: 36,
+  titre: "Génie civil",
+  best: "Nouveaux",
+  time: "15h30",
+  image: "/image/PROMO FORMATION BA.jpg",
+  title: "Formation BA : Comment faire un Plan Béton Armé Complet",
+  title2: "De la Conception aux Plans BA Professionnels",
+  photo: "/image/security.jpeg",
+  nom: "Adama Sympavy",
+  description: "Apprenez à réaliser un plan complet en béton armé pour vos projets de construction.",
+  description2: "Cette formation vous permettra de maîtriser toutes les étapes nécessaires pour concevoir et produire un plan béton armé complet. Vous apprendrez à modéliser, dimensionner et vérifier vos structures en respectant les normes BA. Grâce à des cas pratiques et des projets réels, vous serez capable de générer des plans précis et professionnels adaptés au monde du génie civil.",
+  minititre: "Plan Béton Armé",
+  prix: "100.000",
+  sousprix: "150.000",
+  pourcentage: "33%",
+  link: "voir le cours",
+  slug: "plan-beton-arme",
+  header: {
+    letitre: "Formation BA : Comment faire un Plan Béton Armé Complet",
+    card: {
+      vente: "best seller",
+      likeicon: AiOutlineLike,
+      review: "93% positive reviews (2.5k)",
+      iconUser: RiAccountCircle2Line,
+      student: "9,500 élèves",
+      audioIcon: LuAudioLines,
+      audio: "Français"
+    },
+    imagedesc: "/image/PROMO FORMATION BA.jpg",
+    coursedetaille: "Étude complète pour concevoir et produire un plan béton armé conforme aux normes et exigences professionnelles.",
+    asavoir: "La formation s’appuie sur des exercices pratiques, des études de cas réels et la manipulation directe des outils de calcul et de dessin.",
+    detaille: [
+      {
+        mintit: "Introduction au Béton Armé",
+        desc: "Principes fondamentaux et applications en génie civil."
+      },
+      {
+        mintit: "Normes et Critères de Dimensionnement",
+        desc: "Étude des normes BA et critères de calcul."
+      },
+      {
+        mintit: "Modélisation et Calculs",
+        desc: "Analyse des contraintes et dimensionnement des éléments BA."
+      },
+      {
+        mintit: "Détails Constructifs",
+        desc: "Assemblages, ferraillage et bonnes pratiques."
+      },
+      {
+        mintit: "Production du Plan Béton Armé",
+        desc: "Génération d’un plan complet et détaillé."
+      },
+      {
+        mintit: "Études de Cas Pratiques",
+        desc: "Application sur des projets réels et simulations."
+      }
+    ],
+    leprix: {
+      priactu: "100.000",
+      priavant: "150.000",
+      categori: {
+        categorie: "Catégories",
+        geniecivil: "Génie Civil",
+        duree: "Durée",
+        heure: "15h30mn",
+        apprend: "Apprenants",
+        neleve: "9,500",
+        certificat: "Certificat",
+        inclus: "Inclus"
+      },
+      tachecours: {
+        videodetail: "Plus de 85 vidéos bien détaillées.",
+        pratique: "Des cas pratiques bien expliqués.",
+        acces: "Accès à la communauté des Ingénieurs sur Discord.",
+        doc: "Des fichiers ressources pour faciliter vos projets.",
+        button: "commande"
+      }
+    }
+  }
+}
 
 
 ]

@@ -14,7 +14,7 @@ export const CommunauteSection = function(){
             <main className="flex flex-col justify-center items-center w-full">
                 <h2 className="text-2xl md:text-3xl text-white lg:text-5xl font-bold p-1">Notre Communauté</h2>
                 <p className="flex flex-col text-white items-center p-1 text-sm lg:text-lg md:text-lg">Commencez votre parcours de formation
-                 <span className="flex flex-col lg:flex-row justify-center items-center"> <span> dès aujourd'hui et développez les </span> compétences
+                 <span className="flex flex-col lg:flex-row justify-center items-center"> <span> dès aujourd&apos;hui et développez les </span> compétences
                  quiferont la différence</span> </p>
                  <span className="flex gap-3 p-2">
                     <Link href="#" className=" px-3 py-2 md:px-4 md:py-2 lg:px-8 lg:py-2 bg-white  rounded-full">Formation</Link>

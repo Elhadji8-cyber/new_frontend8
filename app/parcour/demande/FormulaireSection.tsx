@@ -18,7 +18,7 @@ export const FormulairDeCommande = ({ formationId, hasMultipleFormations, format
   const isMultiple = hasMultipleFormations ?? card?.hasMulplesFormations ?? false;
 
 
-  let options: string[] = Array.isArray(formationName) && formationName.length > 0 ? formationName : [];
+  const options: string[] = Array.isArray(formationName) && formationName.length > 0 ? formationName : [];
 
 
   const showSelect = isMultiple && options.length > 0;

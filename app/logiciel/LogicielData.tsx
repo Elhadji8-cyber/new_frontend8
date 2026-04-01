@@ -1,7 +1,7 @@
 "use client"
 import {CaoItems, BimItems, GestionItems} from "./CardData";
 import {useState} from "react";
-import  { motion, AnimatePresence } from 'framer-motion'
+import  {  AnimatePresence } from 'framer-motion'
 import Link from "next/link";
 
 

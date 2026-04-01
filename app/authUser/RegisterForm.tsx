@@ -1,10 +1,9 @@
-import { PiSmileySticker } from "react-icons/pi";
 import Link from "next/link"
 export const RegisterForm = function(){
     return(
         <section>
             <div>
-                <p className="text-2xl font-semibold">S'incrire</p>
+                <p className="text-2xl font-semibold">S&apos;incrire</p>
                 <div>
                     <form className="w-full max-w-sm space-y-8 flex flex-col text-white">
 
