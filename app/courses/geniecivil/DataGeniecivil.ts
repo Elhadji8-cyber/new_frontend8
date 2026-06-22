@@ -2526,6 +2526,87 @@ const DataGenicivil: CardData[] = [
       }
     }
   }
+},
+    {
+    id: 37, // ID incrémenté
+    titre: "Génie civil",
+    best: "Nouveaux",
+    time: "25h00", // Adapté pour une formation Arche OMD complète
+    image: "/image/GRAITEC PROMO.jpg",
+    title: "Formation Graitec Arche OMD: De zéro à Expert",
+    title2: "Formation Graitec Arche OMD : De Zéro à Expert en Calcul de Structures et Béton Armé",
+    photo: "/image/security.jpeg",
+    nom: "Adama Sympavy",
+    description: "Maîtrisez Graitec Arche pour le coffrage, le ferraillage et le calcul de structures...",
+    description2: "La Formation Graitec Arche OMD est un programme complet conçu pour vous permettre de maîtriser ce logiciel leader du BIM structurel. Vous apprendrez à modéliser, analyser et dimensionner des structures en béton armé selon les normes en vigueur. Cette formation vous accompagne pas à pas, depuis la saisie du modèle 3D (Ossature) jusqu'à la production des plans de ferraillage détaillés et des notes de calculs pour les différents éléments (poutres, poteaux, semelles, dalles).",
+    minititre: "Arche OMD",
+    prix: "70.000",
+    sousprix: "100.000", // Calculé proportionnellement (ici ~30% de réduction)
+    pourcentage: "30%",
+    link: "voire le cours",
+    slug: "ingenieur-structure-arche",
+    header: {
+        letitre: "Formation Graitec Arche OMD: De zero à Expert ",
+        card: {
+            vente: "best seller",
+            likeicon: AiOutlineLike,
+            review: "35% positise reviews (400)", // Conservé selon le template
+            iconUser: RiAccountCircle2Line,
+            student: "120 éléves",
+            audioIcon: LuAudioLines,
+            audio: "Français"
+        },
+        imagedesc: "/image/GRAITEC PROMO.jpg",
+        coursedetaille: "Descente de Charges, Dimensionnement Béton Armé et Optimisation des Structures avec Arche OMD",
+        asavoir: "Avoir des bases en génie civil et mécanique des structures. Une connaissance préalable du dessin technique ou de logiciels de CAO (AutoCAD) est fortement recommandée.",
+        detaille: [
+            {
+                mintit: "Modélisation 3D de l'ossature",
+                desc: "Saisie de la structure, gestion des niveaux, définition des poteaux, poutres, dalles et parois."
+            },
+            {
+                mintit: "Analyse de la descente de charges",
+                desc: "Calcul automatique et manuel des charges permanentes et d'exploitation, ainsi que leur transmission aux fondations."
+            },
+            {
+                mintit: "Dimensionnement du Béton Armé",
+                desc: "Calcul des sections d'acier pour les éléments structuraux selon les règles BAEL ou Eurocodes."
+            },
+            {
+                mintit: "Génération des plans de ferraillage",
+                desc: "Production automatique des plans d'exécution, des schémas de façonnage des aciers et des métrés."
+            },
+            {
+                mintit: "Étude des fondations et soutènements",
+                desc: "Paramétrage et calcul des semelles isolées, filantes et des murs de soutènement associés à la structure."
+            },
+            {
+                mintit: "Exploitation des notes de calcul",
+                desc: "Édition, analyse et vérification des rapports techniques pour validation par les bureaux de contrôle."
+            }
+        ],
+        leprix: {
+            priactu: "70000",
+            priavant: "100000",
+            categori: {
+                categorie: "Catégories",
+                geniecivil: "Génie Civil",
+                duree: "Durée",
+                heure: "25h00mn",
+                apprend: "Apprenants",
+                neleve: "120",
+                certificat: "Certificat",
+                inclus: "Inclus"
+            },
+            tachecours: {
+                videodetail: "Plus de 50 vidéos bien détaillées.",
+                pratique: "Des cas pratiques sur des bâtiments réels (R+X).",
+                acces: "Accès à la communauté des Ingénieur sur Discord.",
+                doc: "Des fichiers ressources (modèles Arche, notes de calcul types) pour vous faciliter la tâche.",
+                button: "commande"
+            }
+        }
+    }
 }
 
 
